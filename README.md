@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Personal-Portfolio
 Personal Portfolio Website of Dhairya Majmudar a programming enthusiast from IIIT Kota
 <br>
@@ -20,3 +21,6 @@ npm run dev
 
 
 
+=======
+# Personal-Portfolio
+>>>>>>> 6aec2fea121b68b49ef4358dd418fd5fef48177f
