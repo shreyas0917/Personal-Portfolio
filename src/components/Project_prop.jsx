@@ -38,52 +38,16 @@ const Project_prop = (props) => {
                 Tech Stack
               </h3>
 
-              {/* Updated tech stack icons container with safe-area */}
               <div
-                className="flex flex-wrap gap-2 p-1 
-                safe-left:pl-[env(safe-area-inset-left)]
-                safe-right:pr-[env(safe-area-inset-right)]
-                max-sm:safe-bottom:pb-[env(safe-area-inset-bottom)]
-                group-hover:translate-x-0 transition-transform duration-300
-                max-sm:justify-center max-sm:gap-3 max-sm:mt-2"
+                className="flex gap-1 p-1 -translate-x-2 
+                group-hover:translate-x-0 transition-transform duration-300"
               >
-                {/* Individual icon wrappers with safe touch targets */}
-                <div
-                  className="p-2 hover:scale-110 transition-transform duration-200 
-                  max-sm:p-3 max-sm:text-2xl cursor-pointer"
-                >
-                  {props.html5}
-                </div>
-                <div
-                  className="p-2 hover:scale-110 transition-transform duration-200 
-                  max-sm:p-3 max-sm:text-2xl cursor-pointer"
-                >
-                  {props.css3}
-                </div>
-                <div
-                  className="p-2 hover:scale-110 transition-transform duration-200 
-                  max-sm:p-3 max-sm:text-2xl cursor-pointer"
-                >
-                  {props.javascript}
-                </div>
-                <div
-                  className="p-2 hover:scale-110 transition-transform duration-200 
-                  max-sm:p-3 max-sm:text-2xl cursor-pointer"
-                >
-                  {props.tailwindcss}
-                </div>
-                <div
-                  className="p-2 hover:scale-110 transition-transform duration-200 
-                  max-sm:p-3 max-sm:text-2xl cursor-pointer"
-                >
-                  {props.react}
-                </div>
-                <div
-                  className="p-2 hover:scale-110 transition-transform duration-200 
-                  max-sm:p-3 max-sm:text-2xl cursor-pointer"
-                >
-                  {props.vite}
-                </div>
+                {props.html5}
+                {props.css3}
+                {props.javascript}
+                {props.tailwindcss}
+                {props.react}
+                {props.vite}
               </div>
             </div>
           </div>

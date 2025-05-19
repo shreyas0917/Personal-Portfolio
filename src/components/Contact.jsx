@@ -1,7 +1,11 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/no-unescaped-entities */
-import { Fragment } from "react";
-import { SiGithub, SiLinkedin, SiGmail } from "react-icons/si";
+import { Fragment } from 'react';
+import {
+  SiGithub,
+  SiLinkedin,
+  SiGmail,
+} from "react-icons/si";
 
 import Shreyas from "../assets/Shreyas_Wani_Photo.jpg";
 
@@ -22,7 +26,7 @@ const Contact = () => {
             </p>
             <div className="SOCIALS text-[#00040f] dark:text-white text-2xl flex gap-7 mt-5 max-sm:justify-evenly">
               <a
-                href="https://github.com/shreyas0917/"
+                href="https://github.com/shreyas0917"
                 className=" hover:text-slate-500  dark:hover:text-sky-300"
               >
                 <SiGithub />
@@ -42,9 +46,7 @@ const Contact = () => {
             </div>
             <div className="flex gap-5 max-sm:justify-center">
               <button className="py-3 px-4 bg-gradient-to-t dark:from-cyan-500 dark:to-slate-300  from-blue-600 to-cyan-600 font-medium text-[12px] text-[#e1e1e1] dark:text-black outline-none mt-10 mr-3 rounded ">
-                <a href="https://drive.google.com/file/d/1Ku4y4RkVOQYh6QvHEeEl_Ywa2giRt0Tk/view?usp=drivesdk">
-                  Resume
-                </a>
+                <a href="">Resume</a>
               </button>
               <button className="py-3 px-4 bg-gradient-to-t dark:from-cyan-500 dark:to-slate-300 from-blue-600 to-cyan-600  font-medium text-[12px] text-[#e1e1e1] dark:text-black outline-none mt-10 mr-3 rounded ">
                 <a
