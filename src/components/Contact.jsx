@@ -34,7 +34,7 @@ const Contact = () => {
                 <SiLinkedin />
               </a>
               <a
-                href="shreyaswani04@gmail.com?subject=Hello&body=Hi%20Shreyas"
+                href="mailto:shreyaswani04@gmail.com?subject=Hello&body=Hi%20Shreyas"
                 className="hover:text-slate-500 dark:hover:text-sky-300"
               >
                 <SiGmail />
